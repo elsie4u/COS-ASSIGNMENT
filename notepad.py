@@ -8,9 +8,7 @@ class Notepad:
         self.text_area = tk.Text(root, wrap="word", undo=True)
         self.text_area.pack(expand="yes", fill="both")
 
-        # Menu Bar
-        self.menu_bar = tk.Menu(root)
-        self.root.config(menu=self.menu_bar)
+        
 
         # File Menu
         self.file_menu = tk.Menu(self.menu_bar, tearoff=0)
